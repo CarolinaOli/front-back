@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "start": "node index.ts",
-    "build": "next build",
+    "build": "cd client && next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
